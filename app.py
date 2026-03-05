@@ -7,7 +7,7 @@ app = Flask(__name__)
 def hello():
     return {
         "ok": True,
-        "message": "Hello from CI/CD!",
+        "message": "Hello v2",
         "env": os.getenv("APP_ENV", "unknown")
     }
 
